@@ -1,7 +1,18 @@
 [package]
-name = "word-count"
+name = "bicycle-book-word-count"
 version = "0.1.0"
 edition = "2021"
+authors = ["shinobu52"]
+license = "MIT OR Apache-2.0"
+description = "シンプルな文字、単語、行の出現頻度の計数機能を提供します"
+readme = "README.md"
+repository = "https://github.com/shinobu52/word-count"
+categories = ["command-line-utilities"]
+keywords = ["example", "frequency", "text"]
+exclude = ["text.txt", "tests/*"]
+
+[badges]
+github = { repository = "shinobu52/word-count", workflow = "Rust" }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
