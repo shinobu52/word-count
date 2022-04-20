@@ -36,7 +36,7 @@ fn char_count_utf8() {
     let freq = count(input, CountOption::Char);
 
     assert_eq!(freq.len(), 16);
-    for(_, count) in freq {
+    for (_, count) in freq {
         assert_eq!(count, 1)
     }
 }
