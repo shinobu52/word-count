@@ -12,7 +12,7 @@ keywords = ["example", "frequency", "text"]
 exclude = ["text.txt", "tests/*"]
 
 [badges]
-github = { repository = "shinobu52/word-count", workflow = "Rust" }
+github = { repository = "shinobu52/word-count" }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
